@@ -1,0 +1,154 @@
+[
+{
+	"phoneNumbers": [
+		{
+			"type": "Home",
+			"phoneNumber": "1234",
+			"activate": true
+		},
+		{
+			"type": "Mobile",
+			"phoneNumber": "2345",
+			"activate": true
+		},
+		{
+			"type": "Work",
+			"phoneNumber": "5678",
+			"activate": false
+		},
+		{
+			"type": "Emergency",
+			"phoneNumber": "7895",
+			"activate": false
+		}
+	]
+},
+{
+	
+	"phoneNumbers": [
+		{
+			"type": "Home",
+			"phoneNumber": "2345",
+			"activate": true
+		},
+		{
+			"type": "Mobile",
+			"phoneNumber": "3456",
+			"activate": false
+		},
+		{
+			"type": "Work",
+			"phoneNumber": "9876",
+			"activate": false
+		}
+		
+	]
+},
+{
+	"phoneNumbers": [
+		{
+			"type": "Home",
+			"phoneNumber": "3234",
+			"activate": true
+		},
+		{
+			"type": "Mobile",
+			"phoneNumber": "2345",
+			"activate": true
+		}
+		
+	]
+},
+{
+	"phoneNumbers": [
+		{
+			"type": "Home",
+			"phoneNumber": "4234",
+			"activate": true
+		},
+		{
+			"type": "Mobile",
+			"phoneNumber": "2345",
+			"activate": true
+		},
+		{
+			"type": "Work",
+			"phoneNumber": "5678",
+			"activate": false
+		}
+		
+	]
+},
+{
+	"phoneNumbers": [
+		{
+			"type": "Home",
+			"phoneNumber": "5234",
+			"activate": true
+		},
+		{
+			"type": "Mobile",
+			"phoneNumber": "2345",
+			"activate": true
+		},
+		{
+			"type": "Work",
+			"phoneNumber": "5678",
+			"activate": false
+		},
+		{
+			"type": "Emergency",
+			"phoneNumber": "7895",
+			"activate": false
+		}
+	]
+},
+{
+	"phoneNumbers": [
+		{
+			"type": "Home",
+			"phoneNumber": "6234",
+			"activate": true
+		},
+		{
+			"type": "Mobile",
+			"phoneNumber": "2345",
+			"activate": true
+		},
+		{
+			"type": "Work",
+			"phoneNumber": "5678",
+			"activate": false
+		},
+		{
+			"type": "Emergency",
+			"phoneNumber": "7895",
+			"activate": false
+		}
+	]
+},
+{
+	"phoneNumbers": [
+		{
+			"type": "Home",
+			"phoneNumber": "7234",
+			"activate": true
+		},
+		{
+			"type": "Mobile",
+			"phoneNumber": "2345",
+			"activate": true
+		},
+		{
+			"type": "Work",
+			"phoneNumber": "5678",
+			"activate": false
+		},
+		{
+			"type": "Emergency",
+			"phoneNumber": "7895",
+			"activate": false
+		}
+	]
+}
+]
