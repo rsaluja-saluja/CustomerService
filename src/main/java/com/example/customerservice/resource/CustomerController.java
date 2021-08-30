@@ -32,13 +32,13 @@ public class CustomerController {
 
 	@GetMapping("/customers/{id}/phonenumbers")
 	public Customer getPhoneNumbersById(
-			@Min(value = 1, message = "Customer id must be greater than or equal to 1") @PathVariable("id") Integer id) {
+			@Min(value = 1, message = "Customer Id must be greater than or equal to 1") @PathVariable("id") Integer id) {
 		return custService.getPhoneNumberById(id);
 	}
 
 	@PutMapping("/customers/{id}/phonenumbers")
 	public Customer activatePhoneNumber(@Valid @RequestBody ActiveNumber number,
-			@Min(value = 1, message = "Customer id must be greater than or equal to 1") @PathVariable("id") Integer id) {
+			@Min(value = 1, message = "Customer Id must be greater than or equal to 1") @PathVariable("id") Integer id) {
 		return custService.activatePhoneNumber(id, number);
 	}
 }
