@@ -18,6 +18,10 @@ public class Customer {
 	@GeneratedValue
 	private Integer customerId;
 	
+	/*
+	 * TODO 
+	 * Instead of @ElementCollection One-to-Many association can be used to improve performance.
+	 */
 	@Embedded
 	@ElementCollection
 	private List<PhoneNumber> phoneNumbers = new ArrayList<PhoneNumber>();

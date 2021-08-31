@@ -37,6 +37,12 @@ class CustomerControllerTest {
 	@Autowired
 	private TestRestTemplate restTemplate;
 
+	/*
+	 * TODO
+	 * 1. Code can be refactored to avoid code duplication
+	 * Example: asserts, test setup can be moved to common function
+	 * 2. Add test cases for service layer.
+	 */
 	@Test
 	void testGetCustPhoneNumbersWithoutFetchParam() throws Exception {
 
